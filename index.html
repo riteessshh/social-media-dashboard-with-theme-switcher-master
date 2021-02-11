@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <!-- localstylesheet -->
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,71 +22,112 @@
 </head>
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+  <div class="card">
+    <div class="header">
+      <div class="heading">
+        <h1>Social Media Dashboard</h1>
+        <h2>Total Followers: 23,004</h2>
+      </div>
 
-  Dark Mode
+      <div class="darkmode">
+        <p>Dark Mode</p>
+      </div>
+    </div>
 
-  
+    <div class="socialacc">
+      <div class="facebook">
+        <p class="t1"><img src="images/icon-facebook.svg" alt="">@nathanf</p>
+        <p class="t2">1987</p>
+        <p class="t3">Followers</p>
+        <p class="t4">12 Today</p>
+      </div>
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+      <div class="twitter">
+        <p class="t1"><img src="images/icon-twitter.svg" alt="">@nathanf</p>
+        <p class="t2">1044</p>
+        <p class="t3">Followers</p>
+        <p class="t4">99 Today</p>
+      </div>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
+      <div class="instagram">
+        <div class="line"></div>
+        <p class="t1"><img src="images/icon-instagram.svg" alt="">@realnathanf</p>
+        <p class="t2">11k</p>
+        <p class="t3">Followers</p>
+        <p class="t4">1099 Today</p>
+      </div>
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
+      <div class="youtube">
+        <p class="t1"><img src="images/icon-youtube.svg" alt="">Nathan F.</p>
+        <p class="t2">8239</p>
+        <p class="t3">Subscribers</p>
+        <p class="t4">144 Today</p>
+      </div>
+    </div>
 
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+    <h1>Overview - Today</h1>
 
+    <div class="overview">
+      <div class="overview-items">
+        <p>Page Views</p>
+        <p class="align-right"><img src="images/icon-facebook.svg" alt=""></p>
+        <p>87</p>
+        <p class="align-right">3%</p>
+      </div>
 
+      <div class="overview-items">
+        <p>Likes</p>
+        <p class="align-right"><img src="images/icon-facebook.svg" alt=""></p>
+        <p>52</p>
+        <p class="align-right">2%</p>
+      </div>
 
-  Overview - Today
+      <div class="overview-items">
+        <p>Likes</p>
+        <p class="align-right"><img src="images/icon-instagram.svg" alt=""></p>
+        <p>5462</p>
+        <p class="align-right">2257%</p>
+      </div>
 
-  Page Views
-  87
-  3%
+      <div class="overview-items">
+        <p>Profile Views</p>
+        <p class="align-right"><img src="images/icon-instagram.svg" alt=""></p>
+        <p>52k</p>
+        <p class="align-right">1375%</p>
+      </div>
 
-  Likes
-  52
-  2%
+      <div class="overview-items">
+        <p>Retweets</p>
+        <p class="align-right"><img src="images/icon-twitter.svg" alt=""></p>
+        <p>117</p>
+        <p class="align-right">303%</p>
+      </div>
 
-  Likes
-  5462
-  2257%
+      <div class="overview-items">
+        <p>Likes</p>
+        <p class="align-right"><img src="images/icon-instagram.svg" alt=""></p>
+        <p>507</p>
+        <p class="align-right">553%</p>
+      </div>
 
-  Profile Views
-  52k
-  1375%
+      <div class="overview-items">
+        <p>Likes</p>
+        <p class="align-right"><img src="images/icon-youtube.svg" alt=""></p>
+        <p>107</p>
+        <p class="align-right">19%</p>
+      </div>
 
-  Retweets
-  117
-  303%
+      <div class="overview-items">
+        <p>Total Views</p>
+        <p class="align-right"><img src="images/icon-youtube.svg" alt=""></p>
+        <p>1407</p>
+        <p class="align-right">12%</p>
+      </div>
+    </div>
+  </div>
 
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>

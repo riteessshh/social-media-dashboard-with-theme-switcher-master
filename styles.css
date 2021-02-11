@@ -1,0 +1,79 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+.card{
+  width: 70%;
+  margin: auto;
+}
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.socialacc{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  text-align: center;
+}
+.facebook{
+  background: hsl(227, 47%, 96%);
+  border-top: solid 5px hsl(208, 92%, 53%);
+  border-radius: 5px;
+}
+.twitter{
+  background: hsl(227, 47%, 96%);
+  border-top: solid 5px hsl(203, 89%, 53%);
+  border-radius: 5px;
+}
+.instagram{
+  position: relative;
+  background: hsl(227, 47%, 96%);
+  border-radius: 5px;
+}
+.line{
+  position: absolute;
+  background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  height: 5px;
+  width: 100%;
+  top: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.youtube{
+  background: hsl(227, 47%, 96%);
+  border-top: solid 5px hsl(348, 97%, 39%);
+  border-radius: 5px;
+}
+.t1{
+  font-size: 14px;
+}
+.t2{
+  margin: 0 auto;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.t3{
+  font-size: 1.2rem;
+  margin-top: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.t4{
+  font-size: 12px;
+}
+.overview{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.overview-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  background: hsl(227, 47%, 96%);
+  border-radius: 5px;
+}
+.align-right{
+  text-align: right;
+}
