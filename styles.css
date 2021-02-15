@@ -64,6 +64,7 @@ body{
   right: 0;
 }
 .socialacc{
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
@@ -109,7 +110,7 @@ body{
 }
 .t2{
   margin: 0 auto;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 .t3{
@@ -147,6 +148,7 @@ body{
   font-weight: 600;
 }
 .subhead{
+  margin: 40px auto 20px;
   font-size: 1.5rem;
   color: hsl(228, 12%, 44%);
   font-weight: 700;
