@@ -9,6 +9,8 @@ body{
   position: absolute;
   top: 0;
   left: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .block-bg{
   background: hsl(225, 100%, 98%);
@@ -47,11 +49,18 @@ body{
 .darkmode{
   position: relative;
 }
-.darks{
+.text1{
   display: inline-block;
   position: absolute;
   margin: 0;
   top: 40%;
+  right: 9%;
+}
+.modeswitch{
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  top: 55%;
   right: 0;
 }
 .socialacc{
@@ -231,4 +240,85 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.mobileline{
+  display: none;
+}
+
+@media (max-width: 390px) {
+  .block{
+    z-index: -10;
+    height: 38%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .card{
+    width: 85%;
+    margin: auto;
+  }
+  .header{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .mobileline{
+    display: block;
+    width: 99%;
+    margin: auto;
+    height: 1px;
+    border-radius: 1px;
+    background: hsl(228, 12%, 44%);
+  }
+  .darkmode{
+    position: relative;
+    margin: 20px auto;
+  }
+  .text1{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    top: 1px;
+    right: 111px;
+  }
+  .modeswitch{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: auto;
+    right: auto;
+    left: 150px;
+  }
+  .darks.shade{
+    margin: 0;
+  }
+  .darks.dark-white{
+    margin: 0;
+  }
+  .socialacc{
+    margin-top: 20px; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+    text-align: center;
+  }
+  .overview{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  .attribution{
+    position: relative;
+    display: block;
+    width: 99%;
+    margin: auto;
+    bottom: 0;
+  }
+  .subhead{
+    margin: 50px auto 20px;
+  }
 }

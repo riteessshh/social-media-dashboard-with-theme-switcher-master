@@ -13,6 +13,5 @@ document.querySelector("input").addEventListener("click", function(){
   $(".youtube").toggleClass("background-white");
   $(".overview-items").toggleClass("background-white");
   $(".head1").toggleClass("dark-white");
-  $(".darks").toggleClass("dark-white");
-  $(".darks").toggleClass("shade");
+
 });
