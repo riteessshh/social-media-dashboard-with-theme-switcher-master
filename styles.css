@@ -33,7 +33,7 @@ body{
 }
 .card{
   width: 70%;
-  margin: auto;
+  margin: 30px auto auto;
 }
 .header{
   display: grid;
@@ -206,6 +206,9 @@ body{
   -webkit-transition: .4s;
   transition: .4s;
 }
+.slider:hover{
+  background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
 
 .slider:before {
   position: absolute;
@@ -220,7 +223,8 @@ body{
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  /* background-color: #2196F3; */
+  background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
 input:focus + .slider {
@@ -232,6 +236,7 @@ input:checked + .slider:before {
   -ms-transform: translateX(16px);
   transform: translateX(16px);
 }
+
 
 /* Rounded sliders */
 .slider.round {
@@ -245,6 +250,38 @@ input:checked + .slider:before {
 .mobileline{
   display: none;
 }
+
+.facebook.background-white:hover{
+  background: hsl(227, 47%, 92%);
+}
+.twitter.background-white:hover{
+  background: hsl(227, 47%, 92%);
+}
+.instagram.background-white:hover{
+  background: hsl(227, 47%, 92%);
+}
+.youtube.background-white:hover{
+  background: hsl(227, 47%, 92%);
+}
+.overview-items.background-white:hover{
+  background: hsl(227, 47%, 92%);
+}
+.facebook.dark-card:hover{
+  background: hsl(228, 28%, 24%);
+}
+.twitter.dark-card:hover{
+  background: hsl(228, 28%, 24%);
+}
+.instagram.dark-card:hover{
+  background: hsl(228, 28%, 24%);
+}
+.youtube.dark-card:hover{
+  background: hsl(228, 28%, 24%);
+}
+.overview-items.dark-card:hover{
+  background: hsl(228, 28%, 24%);
+}
+
 
 @media (max-width: 390px) {
   .block{
